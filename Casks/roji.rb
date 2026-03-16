@@ -3,7 +3,7 @@ cask "roji" do
   name "roji"
   desc "A simple reverse proxy for local development. Auto-discovers Docker Compose services and provides HTTPS access via *.dev.localhost."
   homepage "https://github.com/kan/roji"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "roji" do
   on_macos do
     on_intel do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Darwin_x86_64.tar.gz"
-      sha256 "4a80ec11da7b77d916849a29108c0b8d903c991431e12da2450620e263b5f878"
+      sha256 "f97d9270952eb418e9eb0da08ba07f0d9491ea78f6caf85e572ae786b7150e0b"
     end
     on_arm do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Darwin_arm64.tar.gz"
-      sha256 "ca0af2e96454576739f9c8229ab65fa0784819dfa664392191df2d102cbce4e6"
+      sha256 "564fe0f1e8889dfdb70f88b3082c21f603d56b9fc6935904e5693d5985c6daaf"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Linux_x86_64.tar.gz"
-      sha256 "1de976a44bb600f644380be1573b9f24fdedf28517170088366fa5fe6720a464"
+      sha256 "a1e64efc8d975dffcd6ce5a452b8195342d771e29d143e40f55d619335fbe33b"
     end
     on_arm do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Linux_arm64.tar.gz"
-      sha256 "f02099b4680118c136d77ddc490dc43d2b09d36065afd7f0fd60245db21117c1"
+      sha256 "d56e9ece824d3cff69798460f6bc688b738b7ab9a90111552fc827bbdb4d385e"
     end
   end
 
