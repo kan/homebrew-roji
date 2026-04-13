@@ -5,22 +5,22 @@ cask "roji" do
   on_macos do
     on_intel do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Darwin_x86_64.tar.gz"
-      sha256 "7d30efeb7df17e67c286d2b2c00c06c27ed2be9f3d065bb2966fd0e5c4fbf84a"
+      sha256 "0ee3ae8e490d2faf013517d98ad02db3ff6f27b72569185d5c00cfcd9be5104c"
     end
     on_arm do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Darwin_arm64.tar.gz"
-      sha256 "85bf4583a3942458206db7527b7a179f8d0a7b396aa899608097ba4dda6d7198"
+      sha256 "02b123ebed408494adcd79148acda16ecc29b608204f17419aec5e996431d865"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Linux_x86_64.tar.gz"
-      sha256 "82a41761f18a1b11df85626642fabead2e9c01e982f7297bf21cd573ba9f425d"
+      sha256 "e2c41549965e8a34e915aad8827554e9f3322638b2d919374b89d5dcd9eb9016"
     end
     on_arm do
       url "https://github.com/kan/roji/releases/download/v#{version}/roji_Linux_arm64.tar.gz"
-      sha256 "9063618a63d24c70ab3bd8b0c2305b60dc5511ffa049e9067c96eb088a154185"
+      sha256 "e384382474743ae13960065c3f3e24e20b73c1538b786983fb34f4929a6fa671"
     end
   end
 
